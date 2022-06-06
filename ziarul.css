@@ -1,0 +1,39 @@
+.heading{
+    
+    border: 2px solid green;
+    text-align: center;
+    margin: 0 auto;
+    background-color: blueviolet;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+
+.message{
+    width: 300px;
+    height: 360px;
+    background-color: goldenrod;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 100px;
+    bottom: 20px;
+    right: 25px;
+    position: fixed;
+}
+.message h2{
+    color: white;
+    
+}
+.message button{
+    width: 130px;
+    height: 35px;
+    background-color: darkcyan;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.message button:hover{
+    cursor: pointer;
+    color: rgb(250, 4, 4);
+}
